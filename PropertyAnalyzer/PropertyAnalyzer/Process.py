@@ -48,21 +48,6 @@ def PrepareData(data,columName):
             processedrow.append(row[rowindex])
         ltable_data.append(list(processedrow))
     return ltable_data;
-
-def PrepareData1(data,columName):
-    lcolumns=[columName]   
-    for column in data.columns:
-        lcolumns.append(column)
-    
-    ltable_data = [lcolumns]          
-    
-    for index, row in data.iterrows():
-        row[columName]=index;        
-        processedrow=[]
-        for rowindex in range(len(row)-1, -1, -1):
-            processedrow.append(row[rowindex])
-        ltable_data.append(list(processedrow))
-    return ltable_data;
     
 def GenerateReport(reportName,reportHeader,table_data):
     pdf = canvas.Canvas(reportName, pagesize=letter)
@@ -74,4 +59,5 @@ def GenerateReport(reportName,reportHeader,table_data):
 
     table.drawOn(pdf, 0, 800-(len(table_data)*50))
     pdf.save()
+
 Init('C:\Python Apps\PropertyAnalyzer\PropertyAnalyzer\Data\PropertyInfo.csv')
