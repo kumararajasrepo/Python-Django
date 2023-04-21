@@ -59,5 +59,4 @@ def GenerateReport(reportName,reportHeader,table_data):
 
     table.drawOn(pdf, 0, 800-(len(table_data)*50))
     pdf.save()
-
 Init('C:\Python Apps\PropertyAnalyzer\PropertyAnalyzer\Data\PropertyInfo.csv')
