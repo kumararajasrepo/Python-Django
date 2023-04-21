@@ -1,0 +1,25 @@
+Write a program that can analyze their property data and generate reports. 
+
+The company has data for all the properties they manage, including the property type, location, price, number of bedrooms and bathrooms, and square footage.
+
+The program should be able to do the following:
+
+Read the property data from a CSV file
+	1. Calculate the average price and square footage of properties in each location
+	2. Calculate the average number of bedrooms and bathrooms for each property type
+	3. Generate a report that summarizes the data for each location and property type
+		
+		The report should include the following information:
+
+		1. The location and property type
+		2. The average price and square footage
+		3. The average number of bedrooms and bathrooms
+		4. The report should be saved to a PDF file
+
+To complete this task, need to install below Python libraries:
+
+1. pandas for data manipulation 
+2. NumPy for numerical computations
+3. reportlab for generating PDF files
+
+Need to have a good understanding of Python's file I/O operations and data structures.
