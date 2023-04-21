@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fa872962-0c6c-475d-80c4-5cd359a842ff</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ReadData.py</StartupFile>
+    <StartupFile>Process.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ReadData - Copy.py" />
-    <Compile Include="ReadData.py" />
-    <Compile Include="CSVprocess.py" />
-    <Compile Include="Numbers.py" />
+    <Compile Include="Process.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Requirement.txt" />

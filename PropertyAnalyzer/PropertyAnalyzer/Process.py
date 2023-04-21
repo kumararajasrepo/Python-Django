@@ -71,6 +71,7 @@ def GenerateReport(reportName,reportHeader,table_data):
     pdf.setFont("Helvetica", 12)
     table=Table(table_data);
     table.wrapOn(pdf, 0, 0)
-    table.drawOn(pdf, 0, 400)
+
+    table.drawOn(pdf, 0, 800-(len(table_data)*50))
     pdf.save()
 Init('C:\Python Apps\PropertyAnalyzer\PropertyAnalyzer\Data\PropertyInfo.csv')
