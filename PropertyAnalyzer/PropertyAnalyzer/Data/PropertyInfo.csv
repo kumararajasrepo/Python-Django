@@ -1,20 +1,20 @@
 PropertyType,Location,Price,BedroomsCount,BathroomsCount,SquareFootage
 Apartments,"Chennai, Perumbakkam",4100000,2,2,840
-Apartments,"Chennai, Nanganallur",6400000,2,3,900
+Apartments,"Chennai, Nanganallur",6400000,4,3,1250
 Apartments,"Chennai, Medavakkam",5400000,3,2,870
 Row houses,"Chennai, Perumbakkam",8100000,2,2,840
 Row houses,"Chennai, Nanganallur",14000000,2,3,900
 Row houses,"Chennai, Medavakkam",9500000,3,2,870
-Villas,"Chennai, Perumbakkam",11000000,2,2,840
+Villas,"Chennai, Perumbakkam",11000000,4,4,840
 Villas,"Chennai, Nanganallur",17500000,2,3,900
 Villas,"Chennai, Medavakkam",15000000,3,2,870
-Apartments,"Chennai, Perumbakkam",4200000,2,2,840
+Apartments,"Chennai, Perumbakkam",4200000,1,2,840
 Apartments,"Chennai, Nanganallur",6500000,2,3,900
 Apartments,"Chennai, Medavakkam",5500000,3,2,870
 Row houses,"Chennai, Perumbakkam",8200000,2,2,840
 Row houses,"Chennai, Nanganallur",15000000,2,3,900
 Row houses,"Chennai, Medavakkam",9600000,3,2,870
-Villas,"Chennai, Perumbakkam",12000000,2,2,840
+Villas,"Chennai, Perumbakkam",12000000,4,3,840
 Villas,"Chennai, Nanganallur",18500000,2,3,900
 Villas,"Chennai, Medavakkam",16000000,3,2,870
 Apartments,"Chennai, Perumbakkam",4300000,2,2,840
@@ -25,4 +25,4 @@ Row houses,"Chennai, Nanganallur",16000000,2,3,900
 Row houses,"Chennai, Medavakkam",9700000,3,2,870
 Villas,"Chennai, Perumbakkam",13000000,2,2,840
 Villas,"Chennai, Nanganallur",19500000,2,3,900
-Villas,"Chennai, Medavakkam",17000000,3,2,870
+Villas,"Chennai, Medavakkam",17000000,5,2,870
