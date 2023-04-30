@@ -7,9 +7,24 @@
     <title>Authentication</title>
 </head>
 <body>
+    {% for message in messages%}
+    <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+        <strong>Message:</strong>{{ message }}  
+        <button type="button" class="close" data-dix`smiss="alert" area-lable="close">
+            <span area-hidden="true">&times;</span>
+        </button>      
+    </div>
+    {% endfor %}
+
     <h3>Welcome to I2I</h3>
-    <button type="submit">SignUp</button>
-    <button type="submit">SignIn</button>
-    <button type="submit">SignOut</button>
+
+    {% if user.is_authenticated %}
+    <h4>You are successfully logged in.</h4>
+    <button type="submit"><a href="/signout">SignOut</a></button>
+    {% else %}
+    <button type="submit"><a href="/signup">SignUp</a></button>
+    <button type="submit"><a href="/signin">SignIn</a></button>
+    {% endif %}
+    
 </body>
 </html>
